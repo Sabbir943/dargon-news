@@ -43,7 +43,7 @@ const Signup = () => {
           }}
         >
           <Label>Name</Label>
-          <Input placeholder="John Doe" variant="secondary" />
+          <Input placeholder="Enter your name" variant="secondary" />
           <FieldError />
         </TextField>
 
@@ -59,7 +59,7 @@ const Signup = () => {
           }}
         >
           <Label>Email</Label>
-          <Input placeholder="john@example.com" />
+          <Input placeholder="Enter your Email" />
           <FieldError />
         </TextField>
   <TextField className="w-full max-w-[280px]" name="password">

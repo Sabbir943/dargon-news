@@ -51,7 +51,7 @@ const LoginPage = () => {
                   }}
                 >
                   <Label>Email</Label>
-                  <Input placeholder="john@example.com" />
+                  <Input placeholder="Enter your email" />
                   <FieldError />
                 </TextField>
         
@@ -81,7 +81,7 @@ const LoginPage = () => {
                   <Button type="submit">Submit</Button>
                   <Button type="reset" variant="secondary">Reset</Button>
                 </div>
-                 <p className='font-bold'>If not login, please <Link className='text-blue-600 border-b' href={'/signup'} >SignUp</Link></p>
+                 <p className='font-bold'>If you are not login, please <Link className='text-blue-600 border-b' href={'/signup'} >SignUp</Link></p>
               </Form>
                 
         </div>
