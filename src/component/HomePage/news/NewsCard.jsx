@@ -7,7 +7,7 @@ import { FaRegStar, FaStar } from 'react-icons/fa6';
 import { IoEye } from "react-icons/io5";
 
 const NewsCard = ({ item }) => {
-    console.log(item)
+    
     return (
         <div className="card bg-base-100 shadow-sm my-7">
 
@@ -48,7 +48,7 @@ const NewsCard = ({ item }) => {
                 <Image src={item.image_url} width={500} height={500} alt='images'/>
                 <p className='line-clamp-3 my-4 text-gray-500'>{item.details}</p>
                 <div className="card-actions justify-start">
-                    <Link href={`news/${item._id}`}><button className="btn text-blue-500">Read More..</button></Link>
+                    <Link href={`/news/${item._id}`}><button className="btn text-blue-500">Read More..</button></Link>
                     
                 </div>
                 <div className='flex justify-between items-center'>

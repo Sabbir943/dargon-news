@@ -1,5 +1,8 @@
 import React from 'react';
-
+export const metadata={
+  title: 'Dragon news -Carrier',
+  description: '...'
+}
 const CareerPage = () => {
     return (
         <div>
